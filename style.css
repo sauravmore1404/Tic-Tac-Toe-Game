@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@800&family=Permanent+Marker&family=Roboto&display=swap');
+
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px;
+  line-height: 75px;
+  font-size: 50px;
+}
+.cell:hover {
+  background-color: rgb(226, 208, 242);
+}
+#gameContainer {
+  font-family: 'Baloo Bhaina 2', cursive;
+  text-align: center;
+}
+#cellContainer {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 225px;
+  margin: auto;
+}
+#textContainer {
+  display: none;
+  position: fixed;
+  top: 10%;
+  left: 30%;
+}
+button#restartBtn {
+  display: block;
+  width: 25%;
+  padding: 0.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-left: 38%;
+  border-radius: 30px;
+  cursor: pointer;
+}
+nav {
+  width: 50%;
+  margin-left: 25%;
+  background-color: blueviolet;
+  text-align: center;
+  font-size: larger;
+  border-radius: 50px;
+}
+button:hover {
+  background-color: rgb(226, 208, 242);
+  box-shadow: 0 0 5px rgb(50, 13, 88);
+  border: none;
+  cursor: pointer;
+}
