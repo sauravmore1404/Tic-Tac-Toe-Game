@@ -24,9 +24,8 @@
 #textContainer {
   display: none;
   position: fixed;
-  top: 10%;
-  left: 20%;
-  background-color: red;
+  top: 0%;
+  left: 25%;
 }
 button#restartBtn {
   display: block;
@@ -52,8 +51,3 @@ button:hover {
   border: none;
   cursor: pointer;
 }
-/* @media only screen and (max-width: 450px) {
-  #textContainer {
-    top: 0%;
-  }
-} */
