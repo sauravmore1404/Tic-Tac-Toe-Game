@@ -28,7 +28,7 @@
   left: 20%;
 }
 @media only screen and (max-width: 600px) {
-  #textContainer {top: 4%;}
+  #textContainer {top: 0%;}
 }
 
 button#restartBtn {
