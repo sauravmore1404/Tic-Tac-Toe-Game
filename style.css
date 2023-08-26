@@ -27,10 +27,6 @@
   top: 10%;
   left: 20%;
 }
-@media only screen and (max-width: 600px) {
-  #textContainer {top: 0%;}
-}
-
 button#restartBtn {
   display: block;
   width: 25%;
@@ -54,4 +50,9 @@ button:hover {
   box-shadow: 0 0 5px rgb(50, 13, 88);
   border: none;
   cursor: pointer;
+}
+@media only screen and (max-width: 400px) {
+  #textContainer {
+    top: 0%;
+  }
 }
